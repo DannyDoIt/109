@@ -1,0 +1,39 @@
+#product-categories .nav-link {
+    font-size: 1.5rem; 
+    padding: 10px 20px; 
+    color: #000;
+}
+
+#product-categories .nav-link.active {
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    object-fit: cover; 
+    height: 200px; 
+    width: 100%;
+}
+
+.product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card .btn {
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    margin: 10px;
+}
